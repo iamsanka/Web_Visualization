@@ -1,0 +1,23 @@
+{
+  "name": "web-commerce-app",
+  "version": "1.0.0",
+  "description": "Web Commerce App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "sass": "sass --watch styles.scss:public/styles.css"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "sass": "^1.49.7"
+  },
+  "keywords": [
+    "web",
+    "commerce",
+    "app"
+  ],
+  "author": "SanD",
+  "license": "ISC"
+}

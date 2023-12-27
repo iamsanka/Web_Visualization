@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <title>Responsive Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class='page'>
+        <header class='section menu'></header>
+        <section class='section header'>
+          <section class="photo">
+            <picture>
+              <source media="(min-width: 401px)" srcset="images/responsive-images/photo-big.jpg">
+              <source media="(max-width: 400px)" srcset="images/responsive-images/photo-tall.jpg">
+              <img src="/images/responsive-images/photo-small.jpg" >
+            </picture>              
+          </section>
+        </section>
+        <section class='section content'>
+          <section class="illustration">
+            <img src='images/responsive-images/illustration-small.png' 
+            srcset="/images/responsive-images/illustration-small.png 1x,
+                    /images/responsive-images/illustration-big.png 2x"
+            style='max-width: 500px' />
+            <!--an inline style of max-width so that the image stays withing that limit on desktop-->
+            <!--src set points alternative images when the screen resolution changes 1x is standars 2x is retina display-->
+          </section>
+        </section>
+        <section class='section sign-up'>
+          <img src='images/sign-up.svg'/>
+        </section>
+        <section class='section feature-1'>
+          <img src='images/feature.svg'/>
+        </section>
+        <section class='section feature-2'>
+          <img src='images/feature.svg'/>
+        </section>
+        <section class='section feature-3'>
+          <img src='images/feature.svg'/>
+        </section>
+    </section>
+</body>
+</html>

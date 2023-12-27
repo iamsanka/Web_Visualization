@@ -1,0 +1,37 @@
+/*About Me*/
+@media screen and (max-width: 1100px) {
+    .sub-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .headshot{
+        width: 500px;
+        padding: 10px;
+    }
+    .information{
+        padding: 50px;
+    }
+}
+
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+}
+.information{
+    padding: 80px;
+}
+h2{
+    font-size: 50px;
+}
+.headshot{
+    width: 500px;
+    padding: 80px;
+}
+.headshot-container{
+    display: flex;
+    align-items: center;
+}
+.information P{
+    font-size: 20PX;
+    text-align: justify;
+}
